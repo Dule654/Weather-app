@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+body{
+    background:  url(img/images.jpg);
+    background-size: cover;
+   
+    
+   
+}
+.logIn{
+    display: block;
+    width: 60%;
+    margin: 5% auto;
+    text-align: center;
+    box-shadow: 1px 1px 10px 10px rgba(41, 40, 40, 0.2);
+    padding: 200px 30px;
+    
+
+}
+.logIn input{
+    width: 30%;
+    height: 70px;
+    text-align: center;
+    font-size: large;
+    color: black;
+}
+.logIn button{
+    display: block;
+    margin: 5% auto ;
+    padding: 10px 16px;
+    color: black;
+}
+.display{
+    display: none;  
+    width: 60%;
+    height: 70vh;
+    margin: 5% auto;
+    box-shadow: 1px 1px 10px 10px rgba(235, 228, 228, 0.2); ;
+}
+.info{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 5%;
+}
+.info div{
+    text-align: center;
+    width: 30%;
+    height: 100px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 0% 25%;
+    color: whitesmoke;
+    font-size: 22px;
+}
+.grided{
+    margin-right: 10%;
+    line-height: 20vh;
+}
+.image img{
+    width: 300px;
+    height: 300px;
+    
+}
+.pName, .pCountry{
+    color: whitesmoke;
+    font-size: 32px;
+    margin-top: 5%;
+}
+.descript{
+    position: absolute;
+    top: 450px;
+    left: 470px;
+    font-size: 32px;
+}
+.pOne{
+    margin-top: 5%;
+    font-size: 22px;
+    line-height: 5vh;
+}
